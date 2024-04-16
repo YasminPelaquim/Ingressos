@@ -65,7 +65,7 @@ namespace Ingressos
 
                 Console.ReadKey();
             }
-           
+           // Refazer os if com && e colocar se é estudante e o lote 
 
             Console.WriteLine("O faturamento total é de " + valt);
             Console.WriteLine("A quantidade de meios-ingressos pagos foi de " + valtm);
