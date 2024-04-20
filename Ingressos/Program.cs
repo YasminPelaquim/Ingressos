@@ -19,13 +19,17 @@ namespace Ingressos
             {
                 Console.WriteLine("Meia entrada de estudante? Sim/Não ");
                 string resp = Console.ReadLine();
-                if (resp == "s")
+                if (resp == "s" && i <= 10)
                 {
-                    if (i <= 10)
+                    int val = 100 / 2;
+                    Console.WriteLine("O valor a ser pago é de " + val);
+                    valtm++;
+                    valt += val;
+                } else if (i <= 10)
                     {
-                        int val = 100 / 2;
+                        int val = 100;
                         Console.WriteLine("O valor a ser pago é de " + val);
-                        valtm++;
+                        valti++;
                         valt += val;
                         
                     }
