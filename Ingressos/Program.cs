@@ -15,11 +15,11 @@ namespace Ingressos
             int valti = 0;
             int valt = 0;
             
-            for(int i = 1; i <= 5;  i++)
+            for(int i = 1; i <= 30;  i++)
             {
                 Console.WriteLine("Meia entrada de estudante? Sim/Não ");
                 string resp = Console.ReadLine();
-                if (resp == "s" && i <= 5)
+                if (resp == "s" && i <= 10)
                 {
                     int val = 50;
                     Console.WriteLine("O valor a ser pago é de " + val);
